@@ -1,7 +1,25 @@
+"use client";
+import { Avatar } from "./avatar";
+import { motion } from "framer-motion";
+import { containerVariants } from "@/const/overview.const";
+import { Brief } from "./brief";
+import { ToContact } from "./to-contact";
+
 export const Overview = () => {
   return (
-    <section>
-      <p>I'm a front-end developer</p>
-    </section>
+    <motion.section
+      className="flex flex-col items-center justify-center gap-4 text-center md:flex-row md:justify-between md:text-end"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      whileInView={{ y: [10, 0], transition: { duration: 0.5 } }}
+      viewport={{ once: true, amount: 0.8 }}
+    >
+      <Avatar />
+      <div className="flex flex-col gap-4 max-w-lg">
+        <Brief />
+        <ToContact />
+      </div>
+    </motion.section>
   );
 };
