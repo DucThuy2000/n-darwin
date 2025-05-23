@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { geistSans, jetBrainsMono } from "@/lib/font";
 import { AppProvider } from "@/providers/app.provider";
+import { PageLayout } from "@/components/layout";
 
 export const metadata: Metadata = {
   title: "n-darwin",
@@ -18,7 +19,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${jetBrainsMono.variable} antialiased`}
       >
-        <AppProvider>{children}</AppProvider>
+        <AppProvider>
+          <PageLayout>{children}</PageLayout>
+        </AppProvider>
       </body>
     </html>
   );
