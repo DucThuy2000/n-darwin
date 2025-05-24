@@ -3,14 +3,14 @@
 import { Fragment, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  animatedRoles,
-  characterVariants,
-  itemVariants,
-  roleVariants,
+  ANIMATED_ROLES,
+  CHARACTER_VARIANTS,
+  ITEM_VARIANTS,
+  ROLE_VARIANTS,
 } from "@/const/overview.const";
 
 export const Brief = () => {
-  const [activeRole, setActiveRole] = useState(animatedRoles[0]);
+  const [activeRole, setActiveRole] = useState(ANIMATED_ROLES[0]);
   const [roleIndex, setRoleIndex] = useState(0);
   const [animationStyle, setAnimationStyle] = useState<
     "flipUp" | "fadeSlide" | "scale" | "character"
@@ -22,7 +22,7 @@ export const Brief = () => {
       <motion.span
         key={index}
         custom={index}
-        variants={characterVariants}
+        variants={CHARACTER_VARIANTS}
         initial="hidden"
         animate="visible"
         style={{ display: "inline-block" }}
@@ -48,8 +48,8 @@ export const Brief = () => {
 
       // Update the active role
       setRoleIndex((prevIndex) => {
-        const nextIndex = (prevIndex + 1) % animatedRoles.length;
-        setActiveRole(animatedRoles[nextIndex]);
+        const nextIndex = (prevIndex + 1) % ANIMATED_ROLES.length;
+        setActiveRole(ANIMATED_ROLES[nextIndex]);
         return nextIndex;
       });
     }, 3000);
@@ -77,7 +77,7 @@ export const Brief = () => {
         initial="initial"
         animate="animate"
         exit="exit"
-        variants={roleVariants[animationStyle]}
+        variants={ROLE_VARIANTS[animationStyle]}
         style={{
           transformStyle: animationStyle === "flipUp" ? "preserve-3d" : "flat",
         }}
@@ -107,7 +107,7 @@ export const Brief = () => {
         initial="initial"
         animate="animate"
         exit="exit"
-        variants={roleVariants[animationStyle]}
+        variants={ROLE_VARIANTS[animationStyle]}
         style={{
           transformStyle: animationStyle === "flipUp" ? "preserve-3d" : "flat",
         }}
@@ -121,7 +121,7 @@ export const Brief = () => {
     <Fragment>
       <motion.p
         className="text-4xl leading-12 font-semibold md:text-2xl md:leading-10"
-        variants={itemVariants}
+        variants={ITEM_VARIANTS}
       >
         I'm{" "}
         <motion.span className="text-primary" whileHover="hover">

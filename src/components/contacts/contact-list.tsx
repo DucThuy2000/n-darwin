@@ -1,4 +1,4 @@
-import { contacts } from "@/const/contact.const";
+import { CONTACTS } from "@/const/contact.const";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,7 +7,7 @@ export const ContactList = () => {
     <div className="p-4 border border-secondary flex flex-col gap-4">
       <span>Contact me here</span>
       <div className="flex flex-col gap-2">
-        {contacts.map((contact) => (
+        {CONTACTS.map((contact) => (
           <Link
             href={contact.link}
             key={contact.name}

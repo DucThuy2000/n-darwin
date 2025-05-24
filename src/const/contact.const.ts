@@ -3,7 +3,7 @@ import PhoneIcon from "@/public/svg/phone.svg";
 import EmailIcon from "@/public/svg/email.svg";
 import ZaloIcon from "@/public/svg/zalo.svg";
 
-export const contacts = [
+export const CONTACTS = [
   {
     name: "phone",
     value: "0982782923",
@@ -30,4 +30,4 @@ export const contacts = [
   },
 ];
 
-export const socialLinks = [];
+export const SOCIAL_LINKS = [];

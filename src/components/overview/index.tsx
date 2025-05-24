@@ -1,7 +1,7 @@
 "use client";
 import { Avatar } from "./avatar";
 import { motion } from "framer-motion";
-import { containerVariants } from "@/const/overview.const";
+import { CONTAINER_VARIANTS } from "@/const/overview.const";
 import { Brief } from "./brief";
 import { ToContact } from "./to-contact";
 
@@ -10,7 +10,7 @@ export const Overview = () => {
     <motion.section
       id="overview"
       className="flex flex-col items-center justify-center gap-4 text-center md:flex-row md:justify-between md:text-end"
-      variants={containerVariants}
+      variants={CONTAINER_VARIANTS}
       initial="hidden"
       animate="visible"
       whileInView={{ y: [10, 0], transition: { duration: 0.5 } }}

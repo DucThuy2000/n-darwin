@@ -1,4 +1,4 @@
-const containerVariants = {
+const CONTAINER_VARIANTS = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -9,7 +9,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const ITEM_VARIANTS = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
@@ -23,7 +23,7 @@ const itemVariants = {
   },
 };
 
-const letterVariants = {
+const LETTER_VARIANTS = {
   hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
@@ -37,7 +37,7 @@ const letterVariants = {
 };
 
 // Enhanced role animation variants
-const roleVariants = {
+const ROLE_VARIANTS = {
   flipUp: {
     initial: {
       rotateX: 90,
@@ -110,7 +110,7 @@ const roleVariants = {
 };
 
 // Character by character animation
-const characterVariants = {
+const CHARACTER_VARIANTS = {
   hidden: { opacity: 0, y: 10 },
   visible: (i: number) => ({
     opacity: 1,
@@ -122,7 +122,7 @@ const characterVariants = {
   }),
 };
 
-const animatedRoles = [
+const ANIMATED_ROLES = [
   {
     role: "Fullstack developer",
     years: "3+ years",
@@ -134,10 +134,10 @@ const animatedRoles = [
 ];
 
 export {
-  animatedRoles,
-  containerVariants,
-  itemVariants,
-  letterVariants,
-  roleVariants,
-  characterVariants,
+  ANIMATED_ROLES,
+  CONTAINER_VARIANTS,
+  ITEM_VARIANTS,
+  LETTER_VARIANTS,
+  ROLE_VARIANTS,
+  CHARACTER_VARIANTS,
 };

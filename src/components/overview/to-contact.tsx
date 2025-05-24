@@ -1,4 +1,4 @@
-import { letterVariants } from "@/const/overview.const";
+import { LETTER_VARIANTS } from "@/const/overview.const";
 import { motion } from "framer-motion";
 
 export const ToContact = () => {
@@ -6,7 +6,7 @@ export const ToContact = () => {
     return text.split("").map((char, index) => (
       <motion.span
         key={index}
-        variants={letterVariants}
+        variants={LETTER_VARIANTS}
         initial="hidden"
         animate="visible"
         transition={{ delay: index * 0.05 }}
