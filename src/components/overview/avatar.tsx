@@ -16,6 +16,7 @@ export const Avatar = () => {
         damping: 20,
         duration: 0.8,
       }}
+      className="flex flex-col justify-center items-center"
     >
       <Image
         src={AvatarImage}
@@ -24,6 +25,10 @@ export const Avatar = () => {
         width={1024}
         height={1024}
       />
+      <div className="text-start px-1 border border-gray-300 text-sm gap-2 w-fit text-secondary hidden lg:flex md:items-center">
+        <div className="h-4 w-4 bg-primary"></div>
+        Currently working on <strong className="text-white">Portfolio</strong>
+      </div>
     </motion.div>
   );
 };

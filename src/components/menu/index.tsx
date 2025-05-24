@@ -9,7 +9,7 @@ const MENUS = [
   { name: "works", path: "/works" },
   { name: "about-me", path: "/about-me" },
   { name: "projects", path: "/projects" },
-  { name: "contacts", path: "/contacts" },
+  { name: "contacts", path: "#contacts" },
 ];
 
 export const Menu = ({ className = "" }) => {
