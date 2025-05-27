@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 const MENUS = [
   { name: "home", path: "/" },
   { name: "works", path: "/works" },
-  { name: "about-me", path: "/about-me" },
+  { name: "about-me", path: "#about" },
   { name: "projects", path: "/projects" },
   { name: "contacts", path: "#contacts" },
 ];
