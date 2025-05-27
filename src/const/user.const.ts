@@ -28,6 +28,21 @@ import ReactRouter from "@/public/svg/react-router.svg";
 import ReactQuery from "@/public/svg/react-query.svg";
 import AWS from "@/public/svg/aws.svg";
 import HTML from "@/public/svg/html.svg";
+import Moodle from "@/public/svg/moodle.svg";
+
+export const PROFILE = {
+  firstName: "Đức Thuỷ",
+  lastName: "Nguyễn",
+  fullName: "Nguyễn Đức Thuỷ",
+  displayName: "ndarwin",
+  about: `Hello, i'm Đức Thuỷ (you can call me Darwin)! \n\n 
+I'm self-taught front-end developer based in Hanoi, Vietnam and passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs. \n\n
+With over 3 years of experience as a Fullstack Developer, I am looking for a multinational, professional, and open-minded work
+environment that is suitable for my abilities and allows me to develop and utilize my English communication skills, logical thinking, and
+problem-solving skills to contribute to the company's growth and development. I'm always looking for opportunities to experience, learn, and
+improve my professional skills, and to be exposed to and learn about the latest programming technologies. \n\n
+Let's connect and collaborate!`,
+};
 
 export const CONTACTS = [
   {
@@ -55,14 +70,6 @@ export const CONTACTS = [
     icon: ZaloIcon,
   },
 ];
-
-export const ABOUT_MYSELF = `Hello, i'm Đức Thuỷ (you can call me Darwin)! \n\n 
-I'm self-taught front-end developer based in Hanoi, Vietnam and passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs. \n\n
-With over 3 years of experience as a Fullstack Developer, I am looking for a multinational, professional, and open-minded work
-environment that is suitable for my abilities and allows me to develop and utilize my English communication skills, logical thinking, and
-problem-solving skills to contribute to the company's growth and development. I'm always looking for opportunities to experience, learn, and
-improve my professional skills, and to be exposed to and learn about the latest programming technologies. \n\n
-Let's connect and collaborate!`;
 
 export const STACKS = [
   {
@@ -154,6 +161,11 @@ export const STACKS = [
     key: "php",
     title: "PHP",
     icon: PHP,
+  },
+  {
+    key: "moodle",
+    title: "Moodle",
+    icon: Moodle,
   },
   {
     key: "laravel",
