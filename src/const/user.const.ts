@@ -26,6 +26,8 @@ import Sass from "@/public/svg/sass.svg";
 import Css from "@/public/svg/css.svg";
 import ReactRouter from "@/public/svg/react-router.svg";
 import ReactQuery from "@/public/svg/react-query.svg";
+import AWS from "@/public/svg/aws.svg";
+import HTML from "@/public/svg/html.svg";
 
 export const CONTACTS = [
   {
@@ -56,9 +58,11 @@ export const CONTACTS = [
 
 export const ABOUT_MYSELF = `Hello, i'm Đức Thuỷ (you can call me Darwin)! \n\n 
 I'm self-taught front-end developer based in Hanoi, Vietnam and passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs. \n\n
-Transforming my creativity and knowledge into a websites has been my passion for over 3 years. I have helping various clients to establish their presence online.
-I always strive to learn about the newest technologies and frameworks to improve my skills and deliver the best results. \n\n
-With my experience, background, and the good fortune of working with various clients, I am able to program with the following technologies`;
+With over 3 years of experience as a Fullstack Developer, I am looking for a multinational, professional, and open-minded work
+environment that is suitable for my abilities and allows me to develop and utilize my English communication skills, logical thinking, and
+problem-solving skills to contribute to the company's growth and development. I'm always looking for opportunities to experience, learn, and
+improve my professional skills, and to be exposed to and learn about the latest programming technologies. \n\n
+Let's connect and collaborate!`;
 
 export const STACKS = [
   {
@@ -157,6 +161,11 @@ export const STACKS = [
     icon: Laravel,
   },
   {
+    key: "html",
+    title: "HTML",
+    icon: HTML,
+  },
+  {
     key: "graphql",
     title: "GraphQL",
     icon: Graphql,
@@ -170,6 +179,11 @@ export const STACKS = [
     key: "mongoose",
     title: "Mongoose",
     icon: Mongoose,
+  },
+  {
+    key: "aws",
+    title: "AWS Lambda",
+    icon: AWS,
   },
   {
     key: "github",

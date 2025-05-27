@@ -2,10 +2,12 @@
 import { motion } from "framer-motion";
 import { STACKS } from "@/const/user.const";
 import { StackItem } from "./stack-item";
+import { TitleSection } from "../ui/title-section";
 
 export const Stacks = () => {
   return (
-    <div className="my-4 md:my-6 space-y-4">
+    <section id="stacks">
+      <TitleSection title="stack" />
       <div className="flex items-center flex-wrap gap-4">
         {STACKS.map((stack, index) => (
           <motion.div
@@ -23,6 +25,6 @@ export const Stacks = () => {
           </motion.div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
