@@ -1,4 +1,4 @@
-import { CONTACTS } from "@/const/contact.const";
+import { CONTACTS } from "@/const/user.const";
 import Image from "next/image";
 import Link from "next/link";
 
