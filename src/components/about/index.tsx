@@ -7,6 +7,7 @@ export const About = () => {
   return (
     <section id="about">
       <TitleSection title="about" />
+
       <Prose>
         <Markdown>{PROFILE.about}</Markdown>
       </Prose>

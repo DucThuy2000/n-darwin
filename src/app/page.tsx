@@ -1,12 +1,13 @@
 import { About } from "@/components/about";
 import { Contacts } from "@/components/contacts";
+import { PageLayout } from "@/components/layout";
 import { Overview } from "@/components/overview";
 import { Stacks } from "@/components/tech-stack";
 import { getPageJsonLd } from "@/lib/scripts/schema";
 
 export default function Home() {
   return (
-    <>
+    <PageLayout>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(getPageJsonLd()) }}
@@ -18,6 +19,6 @@ export default function Home() {
         <Stacks />
         <Contacts />
       </div>
-    </>
+    </PageLayout>
   );
 }

@@ -13,7 +13,13 @@ export const StackItem = ({ stack }: { stack: IProps }) => {
   return (
     <Tooltip>
       <TooltipTrigger asChild>
-        <Image src={stack.icon} alt={stack.key} width={36} height={36} />
+        <Image
+          src={stack.icon}
+          alt={stack.key}
+          width={36}
+          height={36}
+          className="w-9 h-9"
+        />
       </TooltipTrigger>
       <TooltipContent className="py-2 text-sm">{stack.title}</TooltipContent>
     </Tooltip>

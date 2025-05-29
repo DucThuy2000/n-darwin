@@ -35,6 +35,8 @@ export const PROFILE = {
   lastName: "Nguyễn",
   fullName: "Nguyễn Đức Thuỷ",
   displayName: "ndarwin",
+  bio: "Self-taught Frontend Developer",
+  keywords: ["ndarwin", "Đức Thuỷ", "fe developer"],
   about: `Hello, i'm Đức Thuỷ (you can call me Darwin)! \n\n 
 I'm self-taught front-end developer based in Hanoi, Vietnam and passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs. \n\n
 With over 3 years of experience as a Fullstack Developer, I am looking for a multinational, professional, and open-minded work

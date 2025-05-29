@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { geistSans, jetBrainsMono } from "@/lib/font";
 import { AppProvider } from "@/providers/app.provider";
-import { PageLayout } from "@/components/layout";
+import { SITE_INFO } from "@/const/config";
 
 export const metadata: Metadata = {
   title: "n-darwin",
   description: "n-darwin's world",
+  alternates: {
+    canonical: SITE_INFO.url,
+  },
 };
 
 export default function RootLayout({
@@ -19,9 +22,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${jetBrainsMono.variable} antialiased`}
       >
-        <AppProvider>
-          <PageLayout>{children}</PageLayout>
-        </AppProvider>
+        <AppProvider>{children}</AppProvider>
       </body>
     </html>
   );
