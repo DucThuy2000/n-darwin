@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 const MENUS = [
-  { name: "home", path: "/" },
   { name: "about-me", path: "#about" },
   { name: "projects", path: "#projects" },
   { name: "contacts", path: "#contacts" },

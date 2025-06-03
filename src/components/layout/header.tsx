@@ -2,13 +2,21 @@ import Image from "next/image";
 import Logo from "@/public/svg/logo.svg";
 import { BurgerMenu } from "../menu/burger-menu";
 import { Menu } from "../menu";
+import { SourceCode } from "../source-code";
 
 export const Header = () => {
   return (
     <header className="flex items-center justify-between w-full h-12">
       <HeaderLogo />
-      <BurgerMenu />
-      <Menu className="hidden md:flex" />
+      <div className="flex items-center gap-2 md:hidden">
+        <SourceCode size="medium" />
+        <BurgerMenu />
+      </div>
+
+      <div className="hidden md:flex items-center gap-4">
+        <Menu />
+        <SourceCode size="medium" />
+      </div>
     </header>
   );
 };

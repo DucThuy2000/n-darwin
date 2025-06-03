@@ -5,7 +5,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
 export const ButtonToTop = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(
+    typeof window !== "undefined" && window.scrollY > 300
+  );
 
   const handleClick = () => {
     window.scrollTo({

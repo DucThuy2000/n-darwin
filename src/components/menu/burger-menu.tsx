@@ -6,11 +6,11 @@ import { useState } from "react";
 import Image from "next/image";
 import { Menu } from ".";
 
-export const BurgerMenu = () => {
+export const BurgerMenu = ({ className }: { className?: string }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex md:hidden">
+    <div className={className}>
       <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger asChild>
           <Button size="icon" variant="ghost" className="cursor-pointer">

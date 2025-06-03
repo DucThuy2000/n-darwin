@@ -21,7 +21,7 @@ export const Avatar = () => {
       <Image
         src={AvatarImage}
         alt="avatar"
-        className="rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none size-80 "
+        className="rounded-full ring-2 ring-border ring-offset-2 ring-offset-primary select-none size-80"
         width={1024}
         height={1024}
       />
