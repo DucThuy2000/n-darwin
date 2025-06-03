@@ -1,8 +1,10 @@
+import "@/styles/globals.css";
+
 import type { Metadata } from "next";
-import "./globals.css";
+
+import { SITE_INFO } from "@/const/config";
 import { geistSans, jetBrainsMono } from "@/lib/font";
 import { AppProvider } from "@/providers/app.provider";
-import { SITE_INFO } from "@/const/config";
 
 export const metadata: Metadata = {
   title: "n-darwin",
