@@ -1,4 +1,5 @@
 import { About } from "@/components/about";
+import { ButtonToTop } from "@/components/button-to-top";
 import { Contacts } from "@/components/contacts";
 import { PageLayout } from "@/components/layout";
 import { Overview } from "@/components/overview";
@@ -25,6 +26,8 @@ export default function Home() {
 
         <Contacts />
       </div>
+
+      <ButtonToTop />
     </PageLayout>
   );
 }
