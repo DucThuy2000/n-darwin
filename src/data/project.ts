@@ -1,6 +1,7 @@
-import AskEdtechIcon from "@/public/svg/askedtech.svg";
-import FontDep from "@/public/images/fonts99.png";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
+
+import FontDep from "@/public/images/fonts99.png";
+import AskEdtechIcon from "@/public/svg/askedtech.svg";
 
 export interface Project {
   name: string;
@@ -36,7 +37,7 @@ export const PROJECTS: Project[] = [
     startDate: "08.2024",
     endDate: "present",
     description:
-      "AskEdtech is a technology forum primarily serving Korean customers, allowing everyone to discuss, post articles, and share knowledge on the website. Below are the main features: \n\n - Post articles, with the ability to insert media such as images and videos (which are stored on S3).\n - Users can share, save, and comment on articles.\n - A point system for users who actively interact on the platform.\n - Search Functionality: Users can search for articles and comments using keywords.\n - Admin Panel: Admins can manage users, products, articles, and comments.",
+      "AskEdtech is a technology forum primarily serving Korean customers, allowing everyone to discuss, post articles, and share knowledge on the website. Below are the main features: \n\n - Post articles, with the ability to insert media such as images and videos.\n - Users can share, save, and comment on articles.\n - A point system for users who actively interact on the platform.\n - Search Functionality: Users can search for articles and comments using keywords.\n - Admin Panel: Admins can manage users, products, articles, and comments.",
     url: "https://askedtech.com",
   },
   {

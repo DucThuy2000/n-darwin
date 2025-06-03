@@ -129,15 +129,15 @@ const ANIMATED_ROLES = [
   },
   {
     role: "Freelance developer",
-    years: "2+ years",
+    years: "4+ years",
   },
 ];
 
 export {
   ANIMATED_ROLES,
+  CHARACTER_VARIANTS,
   CONTAINER_VARIANTS,
   ITEM_VARIANTS,
   LETTER_VARIANTS,
   ROLE_VARIANTS,
-  CHARACTER_VARIANTS,
 };
