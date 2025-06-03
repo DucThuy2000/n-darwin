@@ -38,7 +38,7 @@ export const PROFILE = {
   bio: "Self-taught Frontend Developer",
   keywords: ["ndarwin", "Đức Thuỷ", "fe developer"],
   about: `Hello, i'm Đức Thuỷ (you can call me Darwin)! \n\n 
-I'm self-taught front-end developer based in Hanoi, Vietnam and passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs. \n\n
+I am a self-taught front-end developer based in Hanoi, Vietnam, passionate about building high-performance, user-focused software solutions with intuitive and engaging designs. \n\n
 With over 3 years of experience as a Fullstack Developer, I am looking for a multinational, professional, and open-minded work
 environment that is suitable for my abilities and allows me to develop and utilize my English communication skills, logical thinking, and
 problem-solving skills to contribute to the company's growth and development. I'm always looking for opportunities to experience, learn, and
