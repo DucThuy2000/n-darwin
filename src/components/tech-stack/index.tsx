@@ -1,14 +1,16 @@
 "use client";
 import { motion } from "framer-motion";
+
 import { STACKS } from "@/const/user.const";
-import { StackItem } from "./stack-item";
+
 import { TitleSection } from "../ui/title-section";
+import { StackIcon } from "./stack-icon";
 
 export const Stacks = () => {
   return (
     <section id="stacks">
       <TitleSection title="stack" />
-      <div className="flex items-center flex-wrap gap-4">
+      <div className="flex flex-wrap items-center gap-4">
         {STACKS.map((stack, index) => (
           <motion.div
             key={stack.key}
@@ -21,7 +23,7 @@ export const Stacks = () => {
             }}
             viewport={{ once: true }}
           >
-            <StackItem key={stack.key} stack={stack} />
+            <StackIcon key={stack.key} stack={stack} />
           </motion.div>
         ))}
       </div>

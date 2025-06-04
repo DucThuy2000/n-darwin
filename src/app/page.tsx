@@ -1,6 +1,7 @@
 import { About } from "@/components/about";
 import { ButtonToTop } from "@/components/button-to-top";
 import { Contacts } from "@/components/contacts";
+import { Experience } from "@/components/experience";
 import { PageLayout } from "@/components/layout";
 import { Overview } from "@/components/overview";
 import { Projects } from "@/components/projects";
@@ -21,6 +22,8 @@ export default function Home() {
         <About />
 
         <Stacks />
+
+        <Experience />
 
         <Projects />
 

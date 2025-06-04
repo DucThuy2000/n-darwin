@@ -1,6 +1,7 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
-import { TooltipContent, TooltipTrigger, Tooltip } from "../ui/tooltip";
 import Image from "next/image";
+
+import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 
 interface IProps {
   key: string;
@@ -9,7 +10,7 @@ interface IProps {
   className?: string;
 }
 
-export const StackItem = ({ stack }: { stack: IProps }) => {
+export const StackIcon = ({ stack }: { stack: IProps }) => {
   return (
     <Tooltip>
       <TooltipTrigger asChild>
@@ -18,7 +19,7 @@ export const StackItem = ({ stack }: { stack: IProps }) => {
           alt={stack.key}
           width={36}
           height={36}
-          className="w-9 h-9"
+          className="h-9 w-9"
         />
       </TooltipTrigger>
       <TooltipContent className="py-2 text-sm">{stack.title}</TooltipContent>

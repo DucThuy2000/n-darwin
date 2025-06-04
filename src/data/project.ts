@@ -11,7 +11,7 @@ export interface Project {
   endDate: string;
   isPrivate?: boolean;
   description?: string;
-  url: string;
+  url?: string;
 }
 
 export enum ProjectName {

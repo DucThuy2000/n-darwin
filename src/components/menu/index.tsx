@@ -1,11 +1,13 @@
 "use client";
-import { twMerge } from "tailwind-merge";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { twMerge } from "tailwind-merge";
+
 import { cn } from "@/lib/utils";
 
 const MENUS = [
   { name: "about-me", path: "#about" },
+  { name: "experiences", path: "#experience" },
   { name: "projects", path: "#projects" },
   { name: "contacts", path: "#contacts" },
 ];
@@ -44,7 +46,7 @@ export const Menu = ({ className = "" }) => {
           className={cn(
             "flex items-center gap-0.5 text-2xl text-secondary hover:text-white",
             "md:text-base",
-            pathname === menu.path && "text-white font-medium"
+            pathname === menu.path && "font-medium text-white"
           )}
         >
           <span className="text-primary">#</span>
