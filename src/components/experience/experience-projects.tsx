@@ -48,9 +48,7 @@ export const ExperienceProjects = ({
                   <TooltipTrigger asChild>
                     <Lock className="size-3 text-secondary" />
                   </TooltipTrigger>
-                  <TooltipContent>
-                    Private project 🥲 contact me for details.
-                  </TooltipContent>
+                  <TooltipContent>Contact for more details.</TooltipContent>
                 </Tooltip>
               )}
             </div>

@@ -51,7 +51,14 @@ export const EXPERIENCES: Experience[] = [
         endDate: "present",
         name: "One Teacher",
         position: "frontend developer",
-        stacks: ["Angular", "Lambda", "GraphQL", "WSS", "Serverless", "Github"],
+        stacks: [
+          "React",
+          "React Router",
+          "React Query",
+          "REST Api",
+          "Tailwind CSS",
+          "Github",
+        ],
         description:
           "- The old system for teacher management. \n - Teacher chooses subject, grade level and must pass interview round before officially joining. \n - Allows teachers to sign electronic contracts. \n - Manage teacher's teaching schedule (busy, free).",
       },
@@ -62,9 +69,16 @@ export const EXPERIENCES: Experience[] = [
         endDate: "present",
         name: "One Club",
         position: "frontend developer",
-        stacks: ["Angular", "Lambda", "GraphQL", "WSS", "Serverless", "Github"],
+        stacks: [
+          "React",
+          "React Router",
+          "React Query",
+          "REST Api",
+          "Tailwind CSS",
+          "Github",
+        ],
         description:
-          "- The old system for business management. \n - Manage customers, sales, staffs, financial, tutors, courses. \n - Create courses for students and invite teacher to accept it.\n - Interview teachers and manage their schedule.",
+          "- The old system for business management. \n - Manage customers, sales, staffs, financial, tutors, courses. \n - Create courses for students and invite teacher to accept it.\n - Interview teachers and manage their schedule. - Manage formal, trail courses and students' progress.\n - Manage teachers' salary based on the classes taught and the status of those classes.",
       },
       {
         staffType: "maintainer",
