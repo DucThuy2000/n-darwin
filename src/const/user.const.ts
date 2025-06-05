@@ -1,34 +1,34 @@
-import TelegramIcon from "@/public/svg/telegram.svg";
-import PhoneIcon from "@/public/svg/phone.svg";
-import EmailIcon from "@/public/svg/email.svg";
-import ZaloIcon from "@/public/svg/zalo.svg";
-import Docker from "@/public/svg/docker.svg";
-import JS from "@/public/svg/js.svg";
-import TS from "@/public/svg/ts.svg";
 import Angular from "@/public/svg/angular.svg";
-import ReactIcon from "@/public/svg/react.svg";
-import NextIcon from "@/public/svg/nextjs.svg";
-import NestIcon from "@/public/svg/nestjs.svg";
-import PHP from "@/public/svg/php.svg";
-import Laravel from "@/public/svg/laravel.svg";
-import Graphql from "@/public/svg/graphql.svg";
-import Tailwind from "@/public/svg/tailwindcss.svg";
-import Mongoose from "@/public/svg/mongodb.svg";
-import Github from "@/public/svg/github.svg";
-import ChatGPT from "@/public/svg/chatgpt.svg";
-import Ngrx from "@/public/svg/ngrx.svg";
 import Antd from "@/public/svg/antd.svg";
-import Shadcn from "@/public/svg/shadcn.svg";
-import Redux from "@/public/svg/redux.svg";
-import Pug from "@/public/svg/pug.svg";
-import Nodejs from "@/public/svg/nodejs.svg";
-import Sass from "@/public/svg/sass.svg";
-import Css from "@/public/svg/css.svg";
-import ReactRouter from "@/public/svg/react-router.svg";
-import ReactQuery from "@/public/svg/react-query.svg";
 import AWS from "@/public/svg/aws.svg";
+import ChatGPT from "@/public/svg/chatgpt.svg";
+import Css from "@/public/svg/css.svg";
+import Docker from "@/public/svg/docker.svg";
+import EmailIcon from "@/public/svg/email.svg";
+import Github from "@/public/svg/github.svg";
+import Graphql from "@/public/svg/graphql.svg";
 import HTML from "@/public/svg/html.svg";
+import JS from "@/public/svg/js.svg";
+import Laravel from "@/public/svg/laravel.svg";
+import Mongoose from "@/public/svg/mongodb.svg";
 import Moodle from "@/public/svg/moodle.svg";
+import NestIcon from "@/public/svg/nestjs.svg";
+import NextIcon from "@/public/svg/nextjs.svg";
+import Ngrx from "@/public/svg/ngrx.svg";
+import Nodejs from "@/public/svg/nodejs.svg";
+import PhoneIcon from "@/public/svg/phone.svg";
+import PHP from "@/public/svg/php.svg";
+import Pug from "@/public/svg/pug.svg";
+import ReactIcon from "@/public/svg/react.svg";
+import ReactQuery from "@/public/svg/react-query.svg";
+import ReactRouter from "@/public/svg/react-router.svg";
+import Redux from "@/public/svg/redux.svg";
+import Sass from "@/public/svg/sass.svg";
+import Shadcn from "@/public/svg/shadcn.svg";
+import Tailwind from "@/public/svg/tailwindcss.svg";
+import TelegramIcon from "@/public/svg/telegram.svg";
+import TS from "@/public/svg/ts.svg";
+import ZaloIcon from "@/public/svg/zalo.svg";
 
 export const PROFILE = {
   firstName: "Đức Thuỷ",
@@ -37,13 +37,10 @@ export const PROFILE = {
   displayName: "ndarwin",
   bio: "Self-taught Frontend Developer",
   keywords: ["ndarwin", "Đức Thuỷ", "fe developer"],
-  about: `Hello, i'm Đức Thuỷ (you can call me Darwin)! \n\n 
-I am a self-taught front-end developer based in Hanoi, Vietnam, passionate about building high-performance, user-focused software solutions with intuitive and engaging designs. \n\n
-With over 3 years of experience as a Fullstack Developer, I am looking for a multinational, professional, and open-minded work
-environment that is suitable for my abilities and allows me to develop and utilize my English communication skills, logical thinking, and
-problem-solving skills to contribute to the company's growth and development. I'm always looking for opportunities to experience, learn, and
-improve my professional skills, and to be exposed to and learn about the latest programming technologies. \n\n
-Let's connect and collaborate!`,
+  about: `Hello! I’m Đức Thuỷ (you can also call me Darwin)! \n\n 
+A passionate Fullstack Developer with over 3 years of hands-on experience building robust, scalable, and user-centric web applications. I specialize in crafting seamless digital experiences from frontend to backend, leveraging modern technologies and best practices.\n\n
+Throughout my career, I have collaborated with diverse teams and clients, delivering solutions that not only meet technical requirements but also drive business value. Whether it’s designing intuitive user interfaces or architecting efficient server-side logic, I take pride in delivering clean, maintainable code and staying up-to-date with the latest industry trends.\n\n
+I thrive in dynamic environments, am quick to adapt, and am always eager to tackle new challenges. Let’s build something amazing together!`,
 };
 
 export const CONTACTS = [
