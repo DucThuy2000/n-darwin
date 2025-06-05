@@ -1,7 +1,8 @@
-import { ProjectName, PROJECTS } from "@/data/project";
+import { PROJECTS } from "@/data/project";
+
+import { CollapseList } from "../collapse-list";
 import { Accordion } from "../ui/accordion";
 import { TitleSection } from "../ui/title-section";
-import { CollapseList } from "../collapse-list";
 import { ProjectAccordion } from "./project-accordion";
 
 export const Projects = () => {
@@ -12,7 +13,7 @@ export const Projects = () => {
       <Accordion
         type="multiple"
         className="w-full"
-        defaultValue={[ProjectName.ASK_EDTECH, ProjectName.BEAUTY_FONT]}
+        defaultValue={PROJECTS.slice(0, 2).map((item) => item.name)}
       >
         <CollapseList
           list={PROJECTS}

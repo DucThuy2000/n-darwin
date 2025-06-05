@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="100" cy="58" r="24" fill="#4F8EF7"/>
+  <!-- Body -->
+  <rect x="80" y="82" width="40" height="40" rx="16" fill="#A7C7FC"/>
+  <!-- Arms -->
+  <rect x="58" y="104" width="28" height="8" rx="4" fill="#4F8EF7" transform="rotate(-20 58 104)"/>
+  <rect x="114" y="104" width="28" height="8" rx="4" fill="#4F8EF7" transform="rotate(20 114 104)"/>
+  <!-- Laptop -->
+  <rect x="68" y="128" width="64" height="20" rx="6" fill="#343A40"/>
+  <rect x="82" y="132" width="36" height="8" rx="2" fill="#D9EDF7"/>
+  <!-- Desk (optional) -->
+  <rect x="60" y="152" width="80" height="8" rx="4" fill="#E0E0E0"/>
+  <!-- Text (optional, remove if you want only the icon) -->
+  <text x="100" y="185" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="24" font-weight="bold" fill="#4F8EF7">Freelancer</text>
+</svg>

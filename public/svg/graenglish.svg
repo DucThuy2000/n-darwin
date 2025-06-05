@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Book shape -->
+  <rect x="40" y="70" width="120" height="60" rx="12" fill="#f5f5f5" stroke="#4f8ef7" stroke-width="4"/>
+  <rect x="60" y="90" width="80" height="40" rx="8" fill="#e9f4fe"/>
+  <!-- Speech bubble tail -->
+  <polygon points="60,130 50,160 90,140" fill="#f5f5f5" stroke="#4f8ef7" stroke-width="3"/>
+  <!-- Checkmark for grammar correctness -->
+  <polyline points="80,110 95,125 120,100" fill="none" stroke="#43c59e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Optional: Letter "G" for Grammar -->
+  <text x="120" y="120" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="40" font-weight="bold" fill="#4f8ef7">G</text>
+  <!-- Optional: Remove below if you want only the icon -->
+  <text x="100" y="190" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="28" font-weight="bold" fill="#4f8ef7">Grammar English</text>
+</svg>

@@ -5,7 +5,7 @@ import { Experience } from "@/data/experience";
 export const ExperienceCompany = ({ item }: { item: Experience }) => {
   return (
     <div className="flex items-start gap-4">
-      <div className="mt-1 flex shrink-0 items-center">
+      <div className="mt-1 flex min-w-6 shrink-0 items-center">
         <Image
           src={item.logo}
           alt={item.company}

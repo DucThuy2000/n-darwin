@@ -2,6 +2,7 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 import OneStudy from "@/public/images/1study.png";
 import DehaVietNam from "@/public/images/deha.png";
+import Freelancer from "@/public/svg/freelancer.svg";
 
 import { Project } from "./project";
 
@@ -123,6 +124,39 @@ export const EXPERIENCES: Experience[] = [
         stacks: ["Angular", "Lambda", "GraphQL", "WSS", "Serverless", "Github"],
         description:
           "- A hotel booking website tailored for Japanese customers. \n - Users can search for hotels, view details, and book rooms. \n - Users can book or cancel hotel rooms by date and location, featuring an integrated drag-and-drop interface. \n - View booking history, costs, and check-in/check-out dates. \n - Direct chat with the kitchen for food orders. \n - Intuitive, user-friendly interface suitable for all customer types.",
+      },
+    ],
+  },
+  {
+    company: "Freelance",
+    logo: Freelancer,
+    logoSize: 24,
+    status: "online",
+    startDate: "06.2021",
+    endDate: "present",
+    projects: [
+      {
+        staffType: "part-time",
+        teamSize: 1,
+        startDate: "06.2021",
+        endDate: "present",
+        name: "Personal Projects",
+        position: "fullstack developer",
+        stacks: [
+          "NextJS",
+          "React",
+          "TailwindCSS",
+          "Angular",
+          "NestJS",
+          "Github",
+          "Firebase",
+          "Docker",
+          "MongoDB",
+          "NGINX",
+          "Laravel",
+        ],
+        description:
+          "- Build website and ensure features are completed according to customer requirements. \n - English to communicate, take care of customers on platforms such as trello, jira, slack \n - Building personal projects to enhance skills and showcase capabilities. \n - Focus on creating user-friendly, responsive, and visually appealing web applications.",
       },
     ],
   },

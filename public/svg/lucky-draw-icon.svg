@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer wheel -->
+  <circle cx="100" cy="100" r="90" fill="#FFD700" stroke="#FF6347" stroke-width="8"/>
+  <!-- Wheel segments -->
+  <g>
+    <path d="M100,100 L100,20 A80,80 0 0,1 180,100 Z" fill="#FFA500"/>
+    <path d="M100,100 L180,100 A80,80 0 0,1 100,180 Z" fill="#20B2AA"/>
+    <path d="M100,100 L100,180 A80,80 0 0,1 20,100 Z" fill="#FF69B4"/>
+    <path d="M100,100 L20,100 A80,80 0 0,1 100,20 Z" fill="#40E0D0"/>
+  </g>
+  <!-- Center circle -->
+  <circle cx="100" cy="100" r="32" fill="#FFFFFF" stroke="#FF6347" stroke-width="5"/>
+  <!-- Center text -->
+  <text x="100" y="108" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="26" font-weight="bold" fill="#FF6347">LUCKY</text>
+  <!-- Pointer/arrow -->
+  <polygon points="100,5 110,35 90,35" fill="#FF6347"/>
+  <!-- "Draw" Text -->
+  <text x="100" y="192" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="24" font-weight="bold" fill="#20B2AA">Draw!</text>
+</svg>

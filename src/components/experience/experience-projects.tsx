@@ -1,16 +1,15 @@
-import { ArrowUpRightIcon, CodeXml, Lock } from "lucide-react";
-import Link from "next/link";
+import { CodeXml } from "lucide-react";
 
 import { CompanyProject } from "@/data/experience";
 
 import { Markdown } from "../markdown";
+import { ProjectExternalLink } from "../project-external-link";
 import { StackTag } from "../tech-stack/stack-tag";
 import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "../ui/accordion";
-import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 import { Prose } from "../ui/typography";
 
 export const ExperienceProjects = ({
@@ -30,27 +29,10 @@ export const ExperienceProjects = ({
           </div>
 
           <div className="flex flex-col">
-            <div className="flex items-center gap-2 text-[15px] decoration-ring underline-offset-4 hover:underline">
+            <div className="flex items-center gap-1 text-[15px] decoration-ring underline-offset-4 hover:underline">
               {project.name}
 
-              {project.url ? (
-                <Link
-                  href={project.url}
-                  rel="noopener nofollow"
-                  target="_blank"
-                  className="inline-flex size-5 shrink-0 items-center justify-center text-secondary"
-                >
-                  <ArrowUpRightIcon className="pointer-events-none" />
-                  <span className="sr-only">Open</span>
-                </Link>
-              ) : (
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Lock className="size-3 text-secondary" />
-                  </TooltipTrigger>
-                  <TooltipContent>Contact for more details.</TooltipContent>
-                </Tooltip>
-              )}
+              <ProjectExternalLink url={project.url} />
             </div>
             <span className="text-[13px] text-secondary">
               {project.staffType} | {project.position}
