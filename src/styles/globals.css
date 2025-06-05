@@ -115,11 +115,42 @@
 }
 
 @layer base {
-  * {
+
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
     @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply motion-safe:scroll-smooth;
   }
 
   body {
     @apply bg-background text-foreground font-mono;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--d-border);
+    border-radius: 5px;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--d-border) transparent;
+  }
+
+  [id] {
+    @apply scroll-mt-8;
   }
 }

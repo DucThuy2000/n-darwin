@@ -1,4 +1,4 @@
-import { Code, Heart, Power } from "lucide-react";
+import { Code, Heart } from "lucide-react";
 
 import { SourceCode } from "../source-code";
 
@@ -10,9 +10,8 @@ export const Footer = () => {
         and <Heart size={16} />
         love
       </div>
-      <div className="flex flex-wrap items-center gap-1.5 text-balance">
-        Powered By <Power size={16} /> Darwin. The source code is available on
-        <SourceCode className="ml-1" />
+      <div className="flex flex-wrap items-center gap-1.5">
+        The source code is available on <SourceCode className="ml-1" />
       </div>
     </footer>
   );

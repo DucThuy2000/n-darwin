@@ -128,7 +128,7 @@ export const EXPERIENCES: Experience[] = [
     ],
   },
   {
-    company: "Freelance",
+    company: "Freelancer",
     logo: Freelancer,
     logoSize: 24,
     status: "online",
