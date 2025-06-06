@@ -1,8 +1,12 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
+
+import DailyDev from "@/public/images/dailydev.webp";
 import Angular from "@/public/svg/angular.svg";
 import Antd from "@/public/svg/antd.svg";
 import AWS from "@/public/svg/aws.svg";
 import ChatGPT from "@/public/svg/chatgpt.svg";
 import Css from "@/public/svg/css.svg";
+import Discord from "@/public/svg/discord.svg";
 import Docker from "@/public/svg/docker.svg";
 import EmailIcon from "@/public/svg/email.svg";
 import Github from "@/public/svg/github.svg";
@@ -10,6 +14,7 @@ import Graphql from "@/public/svg/graphql.svg";
 import HTML from "@/public/svg/html.svg";
 import JS from "@/public/svg/js.svg";
 import Laravel from "@/public/svg/laravel.svg";
+import Linkedin from "@/public/svg/linkedin.svg";
 import Mongoose from "@/public/svg/mongodb.svg";
 import Moodle from "@/public/svg/moodle.svg";
 import NestIcon from "@/public/svg/nestjs.svg";
@@ -43,6 +48,13 @@ Throughout my career, I have collaborated with diverse teams and clients, delive
 I thrive in dynamic environments, am quick to adapt, and am always eager to tackle new challenges. Let’s build something amazing together!`,
 };
 
+export interface ContactItem {
+  name: string;
+  value: string;
+  link: string;
+  icon: string | StaticImport;
+}
+
 export const CONTACTS = [
   {
     name: "phone",
@@ -67,6 +79,33 @@ export const CONTACTS = [
     value: "Đức Thuỷ",
     link: "https://zalo.me/0982782923",
     icon: ZaloIcon,
+  },
+];
+
+export const SOCIALS = [
+  {
+    name: "github",
+    value: "@darwin",
+    link: "https://github.com/DucThuy2000",
+    icon: Github,
+  },
+  {
+    name: "linkedin",
+    value: "Đức Thuỷ",
+    link: "https://www.linkedin.com/in/%C4%91%E1%BB%A9c-thu%E1%BB%B7-878912191/",
+    icon: Linkedin,
+  },
+  {
+    name: "facebook",
+    value: "#ducthuy1705",
+    link: "https://discord.com/invite/X6YHxGzP",
+    icon: Discord,
+  },
+  {
+    name: "daily.dev",
+    value: "@ndarwin",
+    link: "https://app.daily.dev/ndarwin",
+    icon: DailyDev,
   },
 ];
 
