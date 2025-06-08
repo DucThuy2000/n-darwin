@@ -1,6 +1,7 @@
 import Image from "next/image";
-import Github from "@/public/svg/github.svg";
 import Link from "next/link";
+
+import Github from "@/public/svg/github.svg";
 
 export const SourceCode = ({
   size = "small",

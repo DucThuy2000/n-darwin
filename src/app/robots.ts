@@ -1,5 +1,6 @@
-import { SITE_INFO } from "@/const/config";
 import { MetadataRoute } from "next";
+
+import { SITE_INFO } from "@/const/config";
 
 export default function robots(): MetadataRoute.Robots {
   return {

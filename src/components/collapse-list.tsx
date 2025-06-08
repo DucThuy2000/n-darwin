@@ -1,11 +1,12 @@
+import { Slot } from "@radix-ui/react-slot";
+import { ChevronDownIcon } from "lucide-react";
+
+import { Button } from "./ui/button";
 import {
   Collapsible,
-  CollapsibleTrigger,
   CollapsibleContent,
+  CollapsibleTrigger,
 } from "./ui/collapsible";
-import { Button } from "./ui/button";
-import { ChevronDownIcon } from "lucide-react";
-import { Slot } from "@radix-ui/react-slot";
 
 interface CollapseListProps<T> {
   max: number;
@@ -45,7 +46,7 @@ export const CollapseList = <T,>({
       </CollapsibleContent>
 
       {list.length > max && (
-        <div className="flex justify-center mt-4">
+        <div className="mt-4 flex justify-center">
           <CollapsibleTrigger asChild>
             <Button
               variant="outline"

@@ -1,5 +1,6 @@
-import { SITE_INFO } from "@/const/config";
 import { MetadataRoute } from "next";
+
+import { SITE_INFO } from "@/const/config";
 
 export default function sitemaps(): MetadataRoute.Sitemap {
   // TODO: loops blog page routes when blog is implemented

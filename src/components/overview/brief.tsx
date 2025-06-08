@@ -1,7 +1,8 @@
 "use client";
 
+import { AnimatePresence, motion } from "framer-motion";
 import { Fragment, useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+
 import {
   ANIMATED_ROLES,
   CHARACTER_VARIANTS,
@@ -11,7 +12,6 @@ import {
 
 export const Brief = () => {
   const [activeRole, setActiveRole] = useState(ANIMATED_ROLES[0]);
-  const [roleIndex, setRoleIndex] = useState(0);
   const [animationStyle, setAnimationStyle] = useState<
     "flipUp" | "fadeSlide" | "scale" | "character"
   >("fadeSlide");
@@ -27,7 +27,7 @@ export const Brief = () => {
         animate="visible"
         style={{ display: "inline-block" }}
       >
-        {char === " " ? "\u00A0" : char}
+        {char === "" ? "\u00A0" : char}
       </motion.span>
     ));
   };
@@ -47,10 +47,13 @@ export const Brief = () => {
       });
 
       // Update the active role
-      setRoleIndex((prevIndex) => {
-        const nextIndex = (prevIndex + 1) % ANIMATED_ROLES.length;
-        setActiveRole(ANIMATED_ROLES[nextIndex]);
-        return nextIndex;
+      // Update the active role
+      setActiveRole((prevRole) => {
+        const currentIndex = ANIMATED_ROLES.findIndex(
+          (role) => role === prevRole
+        );
+        const nextIndex = (currentIndex + 1) % ANIMATED_ROLES.length;
+        return ANIMATED_ROLES[nextIndex];
       });
     }, 3000);
 
@@ -61,7 +64,7 @@ export const Brief = () => {
     if (animationStyle === "character") {
       return (
         <motion.span
-          className="text-primary inline-block"
+          className="inline-block text-primary"
           key={`char-${activeRole.role}`}
         >
           {animateRole(activeRole.role)}
@@ -72,7 +75,7 @@ export const Brief = () => {
     return (
       <motion.span
         key={activeRole.role}
-        className="text-primary inline-block"
+        className="inline-block text-primary"
         whileHover="hover"
         initial="initial"
         animate="animate"
@@ -91,7 +94,7 @@ export const Brief = () => {
     if (animationStyle === "character") {
       return (
         <motion.span
-          className="text-primary inline-block"
+          className="inline-block text-primary"
           key={`char-${activeRole.years}`}
         >
           {animateRole(activeRole.years)}
@@ -102,7 +105,7 @@ export const Brief = () => {
     return (
       <motion.span
         key={activeRole.years}
-        className="text-primary inline-block"
+        className="inline-block text-primary"
         whileHover="hover"
         initial="initial"
         animate="animate"
@@ -123,7 +126,7 @@ export const Brief = () => {
         className="text-4xl leading-12 font-semibold md:text-2xl md:leading-10"
         variants={ITEM_VARIANTS}
       >
-        I'm{" "}
+        I&apos;m{" "}
         <motion.span className="text-primary" whileHover="hover">
           Darwin
         </motion.span>{" "}

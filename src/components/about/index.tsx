@@ -1,4 +1,5 @@
 import { PROFILE } from "@/const/user.const";
+
 import { Markdown } from "../markdown";
 import { TitleSection } from "../ui/title-section";
 import { Prose } from "../ui/typography";

@@ -1,5 +1,6 @@
-import { LETTER_VARIANTS } from "@/const/overview.const";
 import { motion } from "framer-motion";
+
+import { LETTER_VARIANTS } from "@/const/overview.const";
 
 export const ToContact = () => {
   const animateText = (text: string) => {
@@ -26,7 +27,7 @@ export const ToContact = () => {
       className="mt-4"
     >
       <motion.div
-        className="inline-block px-6 py-3 bg-primary/10 rounded-full text-primary font-medium"
+        className="inline-block rounded-full bg-primary/10 px-6 py-3 font-medium text-primary"
         whileHover={{
           backgroundColor: "rgba(var(--color-primary-rgb), 0.2)",
         }}
