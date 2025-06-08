@@ -28,6 +28,7 @@ export const ContactList = ({
             href={contact.link}
             key={contact.name}
             target="_blank"
+            rel="noreferrer noopener"
             className="flex items-center gap-2 text-sm text-secondary decoration-white hover:underline"
           >
             <Image
