@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-import Logo from "@/public/svg/logo.svg";
+import { PROFILE } from "@/const/user.const";
 
 import { Menu } from "../menu";
 import { BurgerMenu } from "../menu/burger-menu";
@@ -25,7 +23,8 @@ export const Header = () => {
 
 const HeaderLogo = () => (
   <div className="flex items-center gap-1">
-    <Image src={Logo} alt="logo-w-text" width={21} height={21} />
-    <span className="font-extrabold">Darwin</span>
+    <span className="text-xl font-extrabold text-primary capitalize">
+      {PROFILE.displayName}
+    </span>
   </div>
 );
