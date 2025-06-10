@@ -33,6 +33,24 @@ export const metadata: Metadata = {
       url: SITE_INFO.url,
     },
   ],
+  openGraph: {
+    siteName: SITE_INFO.name,
+    url: "/",
+    type: "profile",
+    title: SITE_INFO.name,
+    description: SITE_INFO.description,
+    firstName: PROFILE.firstName,
+    lastName: PROFILE.lastName,
+    gender: PROFILE.gender,
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: SITE_INFO.name,
+      },
+    ],
+  },
 };
 
 export const viewport: Viewport = {

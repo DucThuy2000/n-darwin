@@ -41,6 +41,7 @@ export const PROFILE = {
   fullName: "Nguyễn Đức Thuỷ",
   logoText: "darwin",
   shortName: "ndthuy",
+  gender: "male",
   jobTitle: "Fullstack Developer",
   bio: "A passionate FE with a keen eye for detail and a love for crafting beautiful.",
   keywords: ["ndarwin", "Đức Thuỷ", "fe developer"],
