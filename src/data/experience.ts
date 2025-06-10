@@ -43,7 +43,7 @@ export const EXPERIENCES: Experience[] = [
         position: "frontend developer",
         stacks: ["Moodle", "PHP", "Github", "Tencent"],
         description:
-          "- All in 1 online learning system. \n - Manage courses (1-1, group), customers, teachers, staffs. \n - Calculate teachers' salaries based on the classes taught and the status of those classes  \n - Connect online courses with tencent. \n - Run cronjob to track class status. \n - eye-catching, easy to use, intuitive, responsive interface.",
+          "- All in 1 online learning system. \n - Manage courses, customers, teachers, staffs, tutors, students, sales. \n - Calculate teachers' salaries based on the classes taught and the status of those classes  \n - Connect online courses with tencent. \n - Run cronjob to track class status. \n - eye-catching, easy to use, intuitive, responsive interface.",
       },
       {
         staffType: "full-time",

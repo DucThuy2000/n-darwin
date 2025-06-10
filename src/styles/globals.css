@@ -154,3 +154,29 @@
     @apply scroll-mt-8;
   }
 }
+
+/* Cursor Shadow Effect */
+.cursor-shadow {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle,
+      rgba(185, 147, 76, 0.08) 0%,
+      rgba(185, 147, 76, 0.05) 25%,
+      rgba(185, 147, 76, 0.02) 50%,
+      transparent 70%);
+  border-radius: 50%;
+  transition: all 0.1s ease-out;
+}
+
+.dark .cursor-shadow {
+  background: radial-gradient(circle,
+      rgba(185, 147, 76, 0.12) 0%,
+      rgba(185, 147, 76, 0.08) 25%,
+      rgba(185, 147, 76, 0.04) 50%,
+      transparent 70%);
+  mix-blend-mode: normal;
+}

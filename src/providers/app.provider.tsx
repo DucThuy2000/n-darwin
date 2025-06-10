@@ -1,7 +1,14 @@
 import React from "react";
 
+import { CursorShadow } from "@/components/cursor-shadow";
+
 import { ThemeProvider } from "./theme.provider";
 
 export const AppProvider = ({ children }: { children: React.ReactNode }) => {
-  return <ThemeProvider>{children}</ThemeProvider>;
+  return (
+    <ThemeProvider>
+      <CursorShadow />
+      {children}
+    </ThemeProvider>
+  );
 };

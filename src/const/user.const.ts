@@ -35,6 +35,13 @@ import TelegramIcon from "@/public/svg/telegram.svg";
 import TS from "@/public/svg/ts.svg";
 import ZaloIcon from "@/public/svg/zalo.svg";
 
+export interface ContactItem {
+  name: string;
+  value: string;
+  link: string;
+  icon: string | StaticImport;
+}
+
 export const PROFILE = {
   firstName: "Đức Thuỷ",
   lastName: "Nguyễn",
@@ -50,13 +57,6 @@ A passionate Fullstack Developer with over 3 years of hands-on experience buildi
 Throughout my career, I have collaborated with diverse teams and clients, delivering solutions that not only meet technical requirements but also drive business value. Whether it’s designing intuitive user interfaces or architecting efficient server-side logic, I take pride in delivering clean, maintainable code and staying up-to-date with the latest industry trends.\n\n
 I thrive in dynamic environments, am quick to adapt, and am always eager to tackle new challenges. Let’s build something amazing together!`,
 };
-
-export interface ContactItem {
-  name: string;
-  value: string;
-  link: string;
-  icon: string | StaticImport;
-}
 
 export const CONTACTS = [
   {
