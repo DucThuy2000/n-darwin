@@ -39,8 +39,9 @@ export const PROFILE = {
   firstName: "Đức Thuỷ",
   lastName: "Nguyễn",
   fullName: "Nguyễn Đức Thuỷ",
-  displayName: "darwin",
-  jobTitle: "fullstack developer",
+  logoText: "darwin",
+  shortName: "ndthuy",
+  jobTitle: "Fullstack Developer",
   bio: "A passionate FE with a keen eye for detail and a love for crafting beautiful.",
   keywords: ["ndarwin", "Đức Thuỷ", "fe developer"],
   about: `Hello! I’m Đức Thuỷ (you can also call me Darwin)! \n\n 

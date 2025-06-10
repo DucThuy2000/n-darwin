@@ -24,7 +24,7 @@ export const Header = () => {
 const HeaderLogo = () => (
   <div className="flex items-center gap-1">
     <span className="text-xl font-extrabold text-primary capitalize">
-      {PROFILE.displayName}
+      {PROFILE.logoText}
     </span>
   </div>
 );

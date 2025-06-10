@@ -2,7 +2,12 @@ import { PROFILE } from "./user.const";
 
 export const SITE_INFO = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://n-darwin.vercel.app",
-  name: PROFILE.displayName,
+  name: PROFILE.firstName,
   description: PROFILE.bio,
   keywords: PROFILE.keywords,
+};
+
+export const META_THEME_COLORS = {
+  light: "#ffffff",
+  dark: "#282C33",
 };

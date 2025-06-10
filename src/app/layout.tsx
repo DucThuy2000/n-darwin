@@ -1,8 +1,8 @@
 import "@/styles/globals.css";
 
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
-import { SITE_INFO } from "@/const/config";
+import { META_THEME_COLORS, SITE_INFO } from "@/const/config";
 import { PROFILE } from "@/const/user.const";
 import { geistSans, jetBrainsMono } from "@/lib/font";
 import { AppProvider } from "@/providers/app.provider";
@@ -26,6 +26,20 @@ export const metadata: Metadata = {
     apple: [{ url: "/icon.png", sizes: "180x180", type: "image/png" }],
     shortcut: "/icon.png",
   },
+  creator: PROFILE.shortName,
+  authors: [
+    {
+      name: PROFILE.fullName,
+      url: SITE_INFO.url,
+    },
+  ],
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: META_THEME_COLORS.dark,
 };
 
 export default function RootLayout({
