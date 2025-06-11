@@ -25,17 +25,9 @@ Whether it's designing intuitive user interfaces or architecting efficient serve
 ### 🎨 **Modern Design & Animation**
 
 - **Responsive Design**: Fully responsive layout optimized for all devices (mobile, tablet, desktop)
-- **Dark/Light Theme**: Seamless theme switching with system preference detection
 - **Smooth Animations**: Beautiful micro-interactions powered by Framer Motion
 - **Dynamic Role Animation**: 4 different animation styles for role transitions (flip, fade, scale, character-by-character)
 - **Interactive Elements**: Hover effects, scroll animations, and smooth transitions
-
-### 🏗️ **Component Architecture**
-
-- **Modular Components**: Reusable UI components built with Radix UI primitives
-- **Accordion Interfaces**: Collapsible sections for projects and experience details
-- **Progressive Disclosure**: Show/hide functionality for better content organization
-- **Tooltip System**: Informative tooltips for enhanced user experience
 
 ### 👤 **Personal Branding**
 
@@ -136,7 +128,11 @@ src/
 
 ## 📄 License
 
-This project is personal portfolio website. Feel free to fork and customize for your own use, but please provide attribution.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright © 2025 Đức Thuỷ (Darwin). All rights reserved.
+
+Feel free to fork and customize for your own use, but please provide attribution when sharing or redistributing.
 
 ---
 
