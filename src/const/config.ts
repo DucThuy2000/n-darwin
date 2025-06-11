@@ -9,5 +9,5 @@ export const SITE_INFO = {
 
 export const META_THEME_COLORS = {
   light: "#ffffff",
-  dark: "#282C33",
+  dark: "#4D4D4D",
 };

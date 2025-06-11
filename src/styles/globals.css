@@ -81,7 +81,7 @@
 }
 
 .dark {
-  --background: #282C33;
+  --background: oklch(0.3 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
@@ -164,9 +164,9 @@
   z-index: 9999;
   transform: translate(-50%, -50%);
   background: radial-gradient(circle,
-      rgba(185, 147, 76, 0.08) 0%,
-      rgba(185, 147, 76, 0.05) 25%,
-      rgba(185, 147, 76, 0.02) 50%,
+      rgba(185, 147, 76, 0.15) 0%,
+      rgba(185, 147, 76, 0.10) 25%,
+      rgba(185, 147, 76, 0.05) 50%,
       transparent 70%);
   border-radius: 50%;
   transition: all 0.1s ease-out;
@@ -174,9 +174,9 @@
 
 .dark .cursor-shadow {
   background: radial-gradient(circle,
-      rgba(185, 147, 76, 0.12) 0%,
-      rgba(185, 147, 76, 0.08) 25%,
-      rgba(185, 147, 76, 0.04) 50%,
+      rgba(185, 147, 76, 0.20) 0%,
+      rgba(185, 147, 76, 0.15) 25%,
+      rgba(185, 147, 76, 0.08) 50%,
       transparent 70%);
   mix-blend-mode: normal;
 }

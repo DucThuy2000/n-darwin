@@ -16,7 +16,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(getPageJsonLd()) }}
       />
 
-      <div className="flex flex-col space-y-16 md:space-y-28">
+      <div className="flex flex-col space-y-16 md:space-y-36">
         <Overview />
 
         <About />
