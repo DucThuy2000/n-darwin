@@ -8,7 +8,7 @@ export const getPageJsonLd = () => {
     dateModified: new Date().toISOString(),
     mainEntity: {
       "@type": "Person",
-      name: PROFILE.displayName,
+      name: PROFILE.firstName,
       identifier: PROFILE.fullName,
       description: PROFILE.about,
       image:

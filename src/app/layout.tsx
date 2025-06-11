@@ -8,6 +8,7 @@ import { geistSans, jetBrainsMono } from "@/lib/font";
 import { AppProvider } from "@/providers/app.provider";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_INFO.url),
   title: {
     template: `%s | ${SITE_INFO.name}`,
     default: `${SITE_INFO.name} - ${PROFILE.jobTitle}`,
