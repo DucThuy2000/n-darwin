@@ -1,7 +1,7 @@
 import { PROFILE } from "./user.const";
 
 export const SITE_INFO = {
-  url: process.env.NEXT_PUBLIC_ROOT_URL || "http://localhost:3000",
+  url: process.env.APP_URL || "https://n-darwin.vercel.app/",
   name: PROFILE.firstName,
   description: PROFILE.bio,
   keywords: PROFILE.keywords,
