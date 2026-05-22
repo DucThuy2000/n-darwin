@@ -53,7 +53,7 @@ export const PROFILE = {
   bio: "A passionate FE with a keen eye for detail and a love for crafting beautiful.",
   keywords: ["ndarwin", "Đức Thuỷ", "fe developer"],
   about: `Hello! I’m Đức Thuỷ (you can also call me Darwin)! \n\n 
-A passionate Fullstack Developer with over 3 years of hands-on experience building robust, scalable, and user-centric web applications. I specialize in crafting seamless digital experiences from frontend to backend, leveraging modern technologies and best practices.\n\n
+A passionate Fullstack Developer with 5 years of hands-on experience building robust, scalable, and user-centric web applications. I specialize in crafting seamless digital experiences from frontend to backend, leveraging modern technologies and best practices.\n\n
 Throughout my career, I have collaborated with diverse teams and clients, delivering solutions that not only meet technical requirements but also drive business value. Whether it’s designing intuitive user interfaces or architecting efficient server-side logic, I take pride in delivering clean, maintainable code and staying up-to-date with the latest industry trends.\n\n
 I thrive in dynamic environments, am quick to adapt, and am always eager to tackle new challenges. Let’s build something amazing together!`,
 };
