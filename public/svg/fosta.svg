@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Fosta">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="48" x2="438" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14b8a6"/>
+      <stop offset="0.55" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="148" fill="#f8fafc"/>
+  <path fill="#0f172a" d="M256 108 340 170 308 270H204L172 170z"/>
+  <path fill="#0f172a" d="M144 208 92 248l38 90 68-28 18-58z"/>
+  <path fill="#0f172a" d="M368 208 296 252l18 58 68 28 38-90z"/>
+  <path fill="#0f172a" d="m222 324-44 74 78 38 78-38-44-74z"/>
+  <path fill="#f8fafc" d="m256 150 44 32-17 52h-54l-17-52z"/>
+  <path fill="#f8fafc" d="M256 256h-1l-50-36-20 62 28 86h86l28-86-20-62z"/>
+  <path fill="#ffffff" fill-opacity=".34" d="M108 94c36-32 85-50 148-50 50 0 94 13 130 38-32-13-71-20-116-20-74 0-128 11-162 32z"/>
+</svg>

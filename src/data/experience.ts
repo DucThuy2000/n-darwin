@@ -1,6 +1,6 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
-import OneStudy from "@/public/images/1study.png";
+import StudyLogo from "@/public/images/1study.png";
 import DehaVietNam from "@/public/images/deha.png";
 import Freelancer from "@/public/svg/freelancer.svg";
 
@@ -27,8 +27,8 @@ export interface Experience {
 
 export const EXPERIENCES: Experience[] = [
   {
-    company: "OneStudy",
-    logo: OneStudy,
+    company: "1Study",
+    logo: StudyLogo,
     logoSize: 18,
     status: "online",
     startDate: "10.2023",
@@ -39,7 +39,7 @@ export const EXPERIENCES: Experience[] = [
         teamSize: 10,
         startDate: "10.2023",
         endDate: "present",
-        name: "One Study",
+        name: "1Study LMS",
         position: "frontend developer",
         stacks: ["Moodle", "PHP", "Github", "Tencent"],
         description:
@@ -50,7 +50,7 @@ export const EXPERIENCES: Experience[] = [
         teamSize: 10,
         startDate: "10.2023",
         endDate: "present",
-        name: "One Teacher",
+        name: "1Study Teacher",
         position: "frontend developer",
         stacks: [
           "React",
@@ -68,7 +68,7 @@ export const EXPERIENCES: Experience[] = [
         teamSize: 10,
         startDate: "10.2023",
         endDate: "present",
-        name: "One Club",
+        name: "1Study Club",
         position: "frontend developer",
         stacks: [
           "React",
@@ -86,7 +86,7 @@ export const EXPERIENCES: Experience[] = [
         teamSize: 10,
         startDate: "10.2023",
         endDate: "present",
-        name: "One Microservice",
+        name: "1Study Microservice",
         position: "backend developer",
         stacks: [
           "NestJS",
@@ -102,6 +102,75 @@ export const EXPERIENCES: Experience[] = [
         ],
         description:
           "- Split services and connect them together.\n - Run cronjobs to manage courses and teachers' salaries.\n - Use grpc to communicate services.\n - Build scalable and maintainable server-side applications.",
+      },
+      {
+        staffType: "full-time",
+        teamSize: 10,
+        startDate: "10.2023",
+        endDate: "present",
+        name: "1Study CRM",
+        position: "fullstack developer",
+        stacks: [
+          "NextJS",
+          "React",
+          "Typescript",
+          "NestJS",
+          "Prisma",
+          "MySQL",
+          "React Query",
+          "TanStack Table",
+          "Zustand",
+          "Tailwind CSS",
+          "Next Intl",
+          "Meta Graph API",
+          "Moodle",
+        ],
+        description:
+          "- Build an internal CRM for education sales, tutor operations, and customer care.\n - Manage leads with Kanban stages, distribution, duplicate detection, comments, audit logs, and role-based access.\n - Manage customers, students, orders, courses, handover flows, and dashboards for funnel, conversion, and team performance.\n - Integrate Meta marketing data, lead forms, ad insights, Moodle/LMS sync jobs, and background cron workflows.",
+      },
+      {
+        staffType: "full-time",
+        teamSize: 10,
+        startDate: "10.2023",
+        endDate: "present",
+        name: "1Study Exams",
+        position: "fullstack developer",
+        stacks: [
+          "NextJS",
+          "React",
+          "Typescript",
+          "Prisma",
+          "MySQL",
+          "BullMQ",
+          "OpenAI",
+          "Google GenAI",
+          "React Query",
+          "Zustand",
+          "Tailwind CSS",
+          "Shadcn UI",
+          "Docker",
+        ],
+        description:
+          "- Build an exam platform for placement tests, practice tests, and assessment workflows.\n - Support admin exam creation, publishing, sections, question banks, media uploads, Excel import/export, and role-based permissions.\n - Support student attempts, timers, retries, grading states, review/report workflows, dashboards, and Moodle user sync.\n - Integrate AI extraction and grading for language/math questions with background workers and retry handling.",
+      },
+      {
+        staffType: "maintainer",
+        teamSize: 10,
+        startDate: "10.2023",
+        endDate: "present",
+        name: "1Study AI",
+        position: "backend developer",
+        stacks: [
+          "Python",
+          "OpenAI",
+          "AWS S3",
+          "MoviePy",
+          "MySQL",
+          "Requests",
+          "Cronjob",
+        ],
+        description:
+          "- Build automation jobs for online class recording transcription and lesson summary generation.\n - Download recordings from source URLs or S3, convert media to audio, submit speech-to-text jobs, and poll transcription status.\n - Generate parent-facing Vietnamese JSON summaries with OpenAI and write transcripts/summaries back to Moodle database tables.\n - Add retry limits, job locking, cleanup, and failure statuses for reliable scheduled processing.",
       },
     ],
   },
