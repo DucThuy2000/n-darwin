@@ -50,7 +50,7 @@ export const PROFILE = {
   shortName: "ndthuy",
   gender: "male",
   jobTitle: "Fullstack Developer",
-  bio: "A passionate FE with a keen eye for detail and a love for crafting beautiful.",
+  bio: "A passionate developer with a keen eye for detail and a love for crafting beautiful.",
   keywords: ["ndarwin", "Đức Thuỷ", "fe developer"],
   about: `Hello! I’m Đức Thuỷ (you can also call me Darwin)! \n\n 
 A passionate Fullstack Developer with nearly 5 years of hands-on experience building robust, scalable, and user-centric web applications. I specialize in crafting seamless digital experiences from frontend to backend, leveraging modern technologies and best practices.\n\n
