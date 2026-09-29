@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
     ],
     isPrivate: true,
     startDate: "08.2024",
-    endDate: "present",
+    endDate: "08/2025",
     description:
       "AskEdtech is a technology forum primarily serving Korean customers, allowing everyone to discuss, post articles, and share knowledge on the website. Below are the main features: \n\n - Post articles, with the ability to insert media such as images and videos.\n - Users can share, save, and comment on articles.\n - A point system for users who actively interact on the platform.\n - Search Functionality: Users can search for articles and comments using keywords.\n - Admin Panel: Admins can manage users, products, articles, and comments.",
     url: "https://askedtech.com",
