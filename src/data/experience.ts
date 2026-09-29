@@ -80,7 +80,7 @@ export const EXPERIENCES: Experience[] = [
         stacks: ["TS", "WXT", "Google extension apis"],
         url: "https://chromewebstore.google.com/detail/1study-class-recorder/eeadnkppbnpjncihgibohcldnmieciip",
         description:
-          "- A unlisted recording extension \n - Integrate LMS, Recording NodeJs server to allow users (teachers) to record the class. \n - Use google extension apis to manage recording files, build UI/UX popup, custom the meeting view with content script... \n - Send recorded by chunks in every 5s to recording server with error handling, retries mechanism. \n - User just need to install and click a button.",
+          "- An unlisted recording extension, installed by internal teachers only. \n - Integrate LMS, Recording NodeJs server to allow users (teachers) to record the class. \n - Use google extension apis to manage recording files, build UI/UX popup, custom the meeting view with content script... \n - Send recorded by chunks in every 5s to recording server with error handling, retries mechanism. \n - User just need to install and click a button.",
       },
       {
         staffType: "maintainer",
