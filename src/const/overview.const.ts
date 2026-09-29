@@ -125,7 +125,7 @@ const CHARACTER_VARIANTS = {
 const ANIMATED_ROLES = [
   {
     role: "Fullstack developer",
-    years: "5 years",
+    years: "nearly 5 years",
   },
   {
     role: "Freelance developer",

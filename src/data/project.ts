@@ -19,28 +19,6 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
-    name: "Fosta",
-    icon: FostaIcon,
-    stacks: [
-      "NextJS",
-      "React",
-      "Typescript",
-      "TailwindCSS",
-      "Shadcn UI",
-      "React Query",
-      "Zustand",
-      "Next Intl",
-      "Firebase",
-      "Recharts",
-    ],
-    isPrivate: true,
-    startDate: "04.2026",
-    endDate: "present",
-    description:
-      "Fosta is a football statistics and live-score web app focused on fixtures, match details, leagues, teams, standings, predictions, and match insights.\n\n - Users can follow football fixtures, live scores, match detail pages, team profiles, league overview, standings, and favorite matches.\n - Supports Vietnamese and English routing, SEO-friendly sport pages, profile/favorites flows, and Firebase-backed authentication.\n - Normalizes match data for live score headers, timelines, lineups, team stats, recent fixtures, H2H history, and handicap/prediction context.\n - Uses responsive chart and data components for standings, match insights, and football analytics.",
-    url: "https://fosta.app/en",
-  },
-  {
     name: "AskEdtech",
     icon: AskEdtechIcon,
     stacks: [
@@ -90,5 +68,27 @@ export const PROJECTS: Project[] = [
     endDate: "12.2022",
     description:
       "Grammar English is a website designed to help users learn English grammar effectively. It offers a variety of features to enhance the learning experience, including:\n\n - A comprehensive list of English grammar topics.\n - Interactive exercises and quizzes to test knowledge.\n - Progress tracking to monitor learning outcomes.\n - User-friendly interface for easy navigation.",
+  },
+  {
+    name: "Fosta",
+    icon: FostaIcon,
+    stacks: [
+      "NextJS",
+      "React",
+      "Typescript",
+      "TailwindCSS",
+      "Shadcn UI",
+      "React Query",
+      "Zustand",
+      "Next Intl",
+      "Firebase",
+      "Recharts",
+    ],
+    isPrivate: true,
+    startDate: "04.2026",
+    endDate: "present",
+    description:
+      "Fosta is a football statistics and live-score web app focused on fixtures, match details, leagues, teams, standings, predictions, and match insights.\n\n - Users can follow football fixtures, live scores, match detail pages, team profiles, league overview, standings, and favorite matches.\n - Supports Vietnamese and English routing, SEO-friendly sport pages, profile/favorites flows, and Firebase-backed authentication.\n - Normalizes match data for live score headers, timelines, lineups, team stats, recent fixtures, H2H history, and handicap/prediction context.\n - Uses responsive chart and data components for standings, match insights, and football analytics.",
+    url: "https://fosta.app/en",
   },
 ];
