@@ -191,7 +191,7 @@ export const EXPERIENCES: Experience[] = [
     logo: DehaVietNam,
     logoSize: 32,
     status: "offline",
-    startDate: "09.2021",
+    startDate: "01.2022",
     endDate: "09.2023",
     projects: [
       {
